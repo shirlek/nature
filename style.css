@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(#9CA777,#C6EBC5,#B7B7B7,#EDC6B1);
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;   
+    padding:0;
+}
+
+img{
+    height:200px;
+    max-width:100%;
+    border-radius: 30px;
+}
+.home img{
+    width:100%;
+    height: 100%;  
+    position: absolute;
+    border-radius: 0px;
+    
+}
+.home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    height:100vh;
+}
+
+.home h1{
+    z-index: 1;
+    color:red;
+}
+.home p{
+    color:red;
+    z-index:1;
+    width:50%;
+}
+.gallery{
+    display:flex;
+    flex-direction: column;
+    height:170vh;
+    justify-content: space-evenly;
+    padding-right: 0;
+    text-align: center;
+    /*9CA777,C9DBB2,B7B7B7,EDC6B1*/
+    
+    background-blend-mode: multiply;
+}
+.gallery p{
+    width:80%;
+    position: relative;
+    left:10%;
+}
+.images{
+    text-align: center;
+}
+.aboutme{
+    width:100vw;
+    text-align: center;
+    padding: 20px;
+    color: red;
+}
+.aboutme img{ 
+    float: left;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+
+.tips{
+    text-align: center;
+}
